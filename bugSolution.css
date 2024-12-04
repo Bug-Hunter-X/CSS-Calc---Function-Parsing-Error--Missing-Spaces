@@ -1,0 +1,7 @@
+The corrected CSS rule with proper spacing in `calc()` function:
+
+```css
+.element { width: calc(100% - 20px); }
+```
+
+This ensures consistent behavior across different browsers by adhering to the correct `calc()` function syntax.
