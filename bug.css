@@ -1,0 +1,11 @@
+The following CSS rule uses the `calc()` function incorrectly, leading to unexpected behavior:
+
+```css
+.element { width: calc(100% - 20px); }
+```
+
+This will work as expected in most browsers. However, some older or less-common browsers might struggle to parse this correctly. The main problem is that the `calc()` function requires spaces around the arithmetic operator (`-` in this case). So, correct code is:
+
+```css
+.element { width: calc(100% - 20px); }
+```
